@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap");
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      .grid-navbar {
+        display: grid;
+
+        grid-template-columns: 20vw 20vw 20vw 40vw;
+
+        grid-template-rows: 20vh;
+      }
+      .grid-producten {
+        display: grid;
+
+        grid-template-columns: auto auto auto auto auto;
+
+        grid-template-rows: 20vw 20vw;
+        background-color: white;
+      }
+
+      .productena1 {
+        grid-column: 3/4;
+        grid-row: 2/3;
+      }
+
+      .productena {
+        grid-column: 2/3;
+
+        grid-row: 1/2;
+
+        background-color: white;
+      }
+      .productenb {
+        grid-column: 3/4;
+        grid-row: 1/2;
+      }
+      .productenb1 {
+        grid-column: 3/4;
+        grid-row: 2/3;
+      }
+      img {
+        object-fit: contain;
+
+        height: 25vh;
+
+        width: 20vw;
+      }
+      .million {
+        grid-column: 4/5;
+
+        grid-row: 1/2;
+
+        width: 20vw;
+        height: 100px;
+      }
+      p {
+        text-align: center;
+        font-size: small;
+        font-family: "Oswald", sans-serif;
+        font-weight: 200;
+        line-height: 35px;
+      }
+
+      .parfum-paco {
+        grid-column: 4/5;
+        grid-row: 1/3;
+      }
+      .hugo-boss {
+        grid-column: 3/4;
+        grid-row: 2/3;
+      }
+
+      .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: calc(20px + 3vw);
+        background-color: black;
+        color: white;
+        grid-column: 1/5;
+        margin-bottom: 10vh;
+        grid-row: 1/2;
+      }
+
+      .vetGedrukt {
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+      .prijs {
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: 50px;
+      }
+    </style>
+
+    <title>E-mail JS form</title>
+  </head>
+
+  <body>
+    <div class="grid-navbar">
+      <div class="navbar">parfumshop</div>
+      <div class="menu"></div>
+    </div>
+    <div class="grid-producten">
+      <div class="productena">
+        <img
+          src="https://img01.ztat.net/article/spp-media-p1/502ebbbc0dc64f05bfff3ecb7e72b7c7/7d7120fe74524326bc24d9b0ad9207a2.jpg?imwidth=1800&filter=packshot"
+          alt=""
+        />
+        <p class="vetGedrukt">azarro</p>
+
+        <p>eau de parfum</p>
+        <p class="prijs">€25 </p>
+      </div>
+      
+      < class="lacoste">
+        <img
+          src="https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-BE-Site/Sites-master/nl_BE/dw17d426a3/82471796_000_24.jpg"
+          alt="lacoste"
+        />
+        <p class="vetGedrukt">lacoste 35 euro</p>
+    </>
+        <div class="hugo-boss">
+          <img
+            src="https://cdn.parfumdreams.de/Img/Art/7/Hugo-Boss-BOSS-Bottled-Eau-de-Toilette-Spray-12855_26.jpg"
+            alt="hugo boss"
+          />
+        </div>
+      </div>
+      <div class="dior">
+        <img
+          src="https://eco-beauty.dior.com/dw/image/v2/BDGF_PRD/on/demandware.static/-/Sites-master_dior/default/dw18fdac3f/assets/Y0017340/Y0017340_F001734009_E01_GHC.jpg?sw=715&sh=773&sm=fit"
+          alt="dior"
+        />
+        <p>sauvage dior 110euro</p>
+      </div>
+      <div class="1million">
+        <img
+          src="https://media.s-bol.com/wE9BXVG2QNoX/jYYpPLP/550x641.jpg"
+          alt="million"
+        />
+        <p>1million 75euro</p>
+      </div>
+      <div class="productenb1"></div>
+
+      < class="parfum-paco">
+        <img
+          src="https://media.s-bol.com/qAryvV00yV0y/nZ3OOq7/550x426.jpg"
+          alt="invictus"
+        />
+        <div class="vrouwenparfum"><img src="https://media.s-bol.com/MW4l8J07rkBB/wBG1w/1200x1006.jpg" alt="rose"></div>
+        
+
+        <p>paco rabanne 100euro</p>
+      </div>
+    </div>
+  </body>
+</html>
